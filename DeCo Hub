@@ -1,0 +1,58 @@
+local function callback(Text)
+end
+
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+
+game.StarterGui:SetCore("SendNotification", {
+    Title = "beta version";
+    Text = "hub is load";
+    Duration = "5";
+    Callback = NotificationBindable;
+})
+
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("DeCo's Hub", "DarkTheme")﻿
+local Tab = Window:NewTab("GAMES")
+local Section = Tab:NewSection("Break In 2")
+Section:NewButton("Breaking Blitz", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RScriptz/RobloxScripts/main/BreakIn2.lua"))()
+    print("Clicked")
+end)
+Section:NewButton("JN HH Gaming's Hub", "ButtonInfo", function()
+loadstring(game:HttpGet("https://freenote.biz/raw/80jXm2Q0a7",true))()
+    print("Clicked")
+end)
+Section:NewButton("DeCo's Hub (IN PROGRESS)", "ButtonInfo", function()
+
+    print("Clicked")
+end)
+local Section = Tab:NewSection("Blade Ball")
+Section:NewButton("DeCo's Hub (OP)", "ButtonInfo", function()
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("Blade Ball By DeCo", "DarkTheme")
+local Tab = Window:NewTab("Main")
+local Section = Tab:NewSection("Tahan V untuk Spam")
+Section:NewButton("Auto Parry/Blok", "ButtonInfo", function()
+getgenv().config = getgenv().config or {
+	hit_time = 0.5, -- // recommended 0.25 to 0.75 \\ --
+	
+	mode = 'Always', -- // Hold , Toggle , Always \\ --
+	deflect_type = 'Remote', -- // Key Press , Remote \\ --
+	notifications = true,
+	keybind = Enum.KeyCode.V
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3ABlade%20Ball%20Parry%20V4.0.0",true))()
+    print("Clicked")
+end)
+Section:NewButton("Fps Booster", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastebin.com/VSjtWEDe"))();
+    print("Clicked")
+end)
+Section:NewButton("Keyboard", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+    print("Clicked")
+end)
+    print("Clicked")
+end)
